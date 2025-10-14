@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-10-14 06:55:52">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Script Progress Tracker</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>369502ca87687250316410a83cbb351b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3158aa8e87ac7250316410a83cbb3567</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_u_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_status" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Choice"&gt;choice&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:25:58&lt;/sys_created_on&gt;&lt;sys_id&gt;cdd506ca87687250316410a83cbb35d4&lt;/sys_id&gt;&lt;sys_name&gt;Status&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_u_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:26:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-278912743</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3158aa8e87ac7250316410a83cbb3569</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f85de80000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6f26420e6f6872509c5541af32293b3d</update_guid>
+<update_guid_history>6f26420e6f6872509c5541af32293b3d:-278912743,8206caca2268725070c60835fa123036:1214065677</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1a06caca87687250316410a83cbb359c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>1a06caca87687250316410a83cbb359c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker.u_script_progress_tracker_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_script_progress_tracker">9e06caca87687250316410a83cbb3595</sys_security_acl><sys_update_name>sys_security_acl_role_1a06caca87687250316410a83cbb359c</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><sys_user_role display_value="u_script_progress_tracker_user" name="u_script_progress_tracker_user">02060aca87687250316410a83cbb3506</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-452925648</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3158aa8e87ac7250316410a83cbb356c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cbbb0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker.u_script_progress_tracker_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9206cacad9687250fa8f9d0ca6a0f8a1</update_guid>
+<update_guid_history>9206cacad9687250fa8f9d0ca6a0f8a1:-452925648</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_u_finished</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_finished" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Finished&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_finished&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_date_time&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:25:59&lt;/sys_created_on&gt;&lt;sys_id&gt;ece506ca87687250316410a83cbb35d8&lt;/sys_id&gt;&lt;sys_name&gt;Finished&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_u_finished&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:26:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1641849693</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3558aa8e87ac7250316410a83cbb3568</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f85c180000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Finished</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a726420eea6872508923c63bc706df20</update_guid>
+<update_guid_history>a726420eea6872508923c63bc706df20:-1641849693,9a06caca366872507942a109f9019540:1887262349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9e06caca87687250316410a83cbb357c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_script_progress_tracker</description><local_or_existing>Existing</local_or_existing><name>u_script_progress_tracker</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>9e06caca87687250316410a83cbb357c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9e06caca87687250316410a83cbb357c</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>546818743</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3558aa8e87ac7250316410a83cbb356b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7ca840000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5606caca5f687250bb89dbe8e2474a82</update_guid>
+<update_guid_history>5606caca5f687250bb89dbe8e2474a82:546818743</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Script Progress Tracker" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Script Progress Tracker</label><language>en</language><name>u_script_progress_tracker</name><plural>Script Progress Trackers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>ae06caca87687250316410a83cbb35b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Script Progress Tracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker__en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1304086979</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3958aa8e87ac7250316410a83cbb356a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cf9c0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ae06caca496872500ec8df5d3fc61dfe</update_guid>
+<update_guid_history>ae06caca496872500ec8df5d3fc61dfe:1304086979</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker_u_script_prefix_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_script_prefix" label="Script Prefix" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element>u_script_prefix</element><help/><hint/><label>Script Prefix</label><language>en</language><name>u_script_progress_tracker</name><plural>Script Prefixes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>ea06caca87687250316410a83cbb35b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Script Prefix</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker_u_script_prefix_en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1738956208</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3d58aa8e87ac7250316410a83cbb3569</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cfc40000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Script Prefix</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a6060ecafb6872501d9fb45768cfbd00</update_guid>
+<update_guid_history>a6060ecafb6872501d9fb45768cfbd00:1738956208</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_a5398e4a87a87250316410a83cbb35b8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/nah/progresstracker</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>ProgressTracker</name><namespace>nah</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>progresstracker</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:40:02</sys_created_on><sys_id>a5398e4a87a87250316410a83cbb35b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ProgressTracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ws_definition_a5398e4a87a87250316410a83cbb35b8</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:40:02</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>-368241806</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>3d58aa8e87ac7250316410a83cbb356c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e104a83d0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table/>
+<target_name>ProgressTracker</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>d8498e4a3ca8725027711edc281721c5</update_guid>
+<update_guid_history>d8498e4a3ca8725027711edc281721c5:-368241806</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:26:00&lt;/sys_created_on&gt;&lt;sys_id&gt;5606caca87687250316410a83cbb35a2&lt;/sys_id&gt;&lt;sys_name&gt;u_script_progress_tracker&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:26:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1508559370</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7158aa8e87ac7250316410a83cbb3568</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cf340000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6a06cacaed6872506bc4601f510cb9f6</update_guid>
+<update_guid_history>6a06cacaed6872506bc4601f510cb9f6:1508559370</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9606caca87687250316410a83cbb3589</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_script_progress_tracker</description><local_or_existing>Existing</local_or_existing><name>u_script_progress_tracker</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>9606caca87687250316410a83cbb3589</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9606caca87687250316410a83cbb3589</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1598255557</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7158aa8e87ac7250316410a83cbb356b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cb050000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5e06caca42687250173c082d6fb3078e</update_guid>
+<update_guid_history>5e06caca42687250173c082d6fb3078e:-1598255557</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_script_progress_tracker_u_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_status" table="u_script_progress_tracker" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_status</element><name>u_script_progress_tracker</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:28:29</sys_created_on><sys_id>f2964e0e87687250316410a83cbb35b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_script_progress_tracker_u_status</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:28:29</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>Running</label><language>en</language><name>u_script_progress_tracker</name><sequence>100</sequence><synonyms/><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:28:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>79964e0e87687250316410a83cbb35aa</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:28:40</sys_updated_on><value>running</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>Finished</label><language>en</language><name>u_script_progress_tracker</name><sequence>200</sequence><synonyms/><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:28:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b296ce0e87687250316410a83cbb356e</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:28:42</sys_updated_on><value>finished</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1852867794</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7558aa8e87ac7250316410a83cbb3567</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0fa47c20000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>86a6024ecb6872500ecc7e68fc9aa1d5</update_guid>
+<update_guid_history>86a6024ecb6872500ecc7e68fc9aa1d5:-1852867794,ada6024e34687250e1796310c2cb1ace:-1295477147,fca6024e50687250d53fc89867cade63:-1261917869,c8a6ce0e64687250f57df1ee6073c077:-2043579638,df96ce0e8e68725025d90a4b51021772:-610107913,7a964e0ebc687250a22a47dd295224b3:-866552187</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker_u_target_record_count_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_target_record_count" label="Target Record Count" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element>u_target_record_count</element><help/><hint/><label>Target Record Count</label><language>en</language><name>u_script_progress_tracker</name><plural>Target Record Counts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>6206caca87687250316410a83cbb35bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Record Count</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker_u_target_record_count_en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-278310115</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7558aa8e87ac7250316410a83cbb356a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cf500000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Target Record Count</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6a06caca1b68725065b1de59440c81f8</update_guid>
+<update_guid_history>6a06caca1b68725065b1de59440c81f8:-278310115</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker_u_finished_record_count_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_finished_record_count" label="Finished Record Count" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element>u_finished_record_count</element><help/><hint/><label>Finished Record Count</label><language>en</language><name>u_script_progress_tracker</name><plural>Finished Record Counts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>6a06caca87687250316410a83cbb35b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Finished Record Count</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker_u_finished_record_count_en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-180051651</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7958aa8e87ac7250316410a83cbb3569</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cf760000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Finished Record Count</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2e06caca996872500bc68d2ede6aaefb</update_guid>
+<update_guid_history>2e06caca996872500bc68d2ede6aaefb:-180051651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_02060aca87687250316410a83cbb3506</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>u_script_progress_tracker_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:58</sys_created_on><sys_id>02060aca87687250316410a83cbb3506</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_02060aca87687250316410a83cbb3506</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:58</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-176217353</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7958aa8e87ac7250316410a83cbb356c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7c5ba0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table/>
+<target_name>u_script_progress_tracker_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>c2060aca496872503ac3adc4c713110c</update_guid>
+<update_guid_history>c2060aca496872503ac3adc4c713110c:-176217353</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_u_started</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_started" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Started&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_started&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_date_time&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:25:59&lt;/sys_created_on&gt;&lt;sys_id&gt;fed506ca87687250316410a83cbb35d6&lt;/sys_id&gt;&lt;sys_name&gt;Started&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_u_started&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:26:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1715720633</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7d58aa8e87ac7250316410a83cbb3568</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f85cd20000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Started</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a326420e676872509815a671c704fb2b</update_guid>
+<update_guid_history>a326420e676872509815a671c704fb2b:1715720633,9606caca7568725045c35aa0fa95333b:-612733411</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1a06caca87687250316410a83cbb3583</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>1a06caca87687250316410a83cbb3583</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker.u_script_progress_tracker_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_script_progress_tracker">9e06caca87687250316410a83cbb357c</sys_security_acl><sys_update_name>sys_security_acl_role_1a06caca87687250316410a83cbb3583</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><sys_user_role display_value="u_script_progress_tracker_user" name="u_script_progress_tracker_user">02060aca87687250316410a83cbb3506</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-2053535424</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>7d58aa8e87ac7250316410a83cbb356b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cabf0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker.u_script_progress_tracker_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9206cacad2687250ac93260d31f64a88</update_guid>
+<update_guid_history>9206cacad2687250ac93260d31f64a88:-2053535424</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker_u_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_status" label="Status" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element>u_status</element><help/><hint/><label>Status</label><language>en</language><name>u_script_progress_tracker</name><plural>Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>ee06caca87687250316410a83cbb35bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker_u_status_en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1727162810</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>b158aa8e87ac7250316410a83cbb356a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cfe90000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ee060eca856872505ea24c049c1e1801</update_guid>
+<update_guid_history>ee060eca856872505ea24c049c1e1801:1727162810</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker_u_finished_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_finished" label="Finished" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element>u_finished</element><help/><hint/><label>Finished</label><language>en</language><name>u_script_progress_tracker</name><plural>Finished</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>6606caca87687250316410a83cbb35b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Finished</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker_u_finished_en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-596907654</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>b558aa8e87ac7250316410a83cbb3569</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cf640000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Finished</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e206cacae16872502f158e813e4f16fa</update_guid>
+<update_guid_history>e206cacae16872502f158e813e4f16fa:-596907654</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_25e64a8e87687250316410a83cbb35b6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="25e64a8e87687250316410a83cbb35b6" sys_domain="global" table="u_script_progress_tracker" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e1e64a8e87687250316410a83cbb35be</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_finished_record_count</element><position>1</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e1e64a8e87687250316410a83cbb35bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_script_prefix</element><position>2</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e9e64a8e87687250316410a83cbb35bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status</element><position>3</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e1e64a8e87687250316410a83cbb35c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e9e64a8e87687250316410a83cbb35c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_target_record_count</element><position>5</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e1e64a8e87687250316410a83cbb35c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_finished</element><position>6</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e9e64a8e87687250316410a83cbb35c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_started</element><position>7</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>e1e64a8e87687250316410a83cbb35c2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_id>69e64a8e87687250316410a83cbb35db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_script_progress_tracker" sys_domain="global" view="Default view">25e64a8e87687250316410a83cbb35b6</sys_ui_section><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_script_progress_tracker</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:29:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>25e64a8e87687250316410a83cbb35b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_25e64a8e87687250316410a83cbb35b6</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:29:45</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1105292047</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>b558aa8e87ac7250316410a83cbb356c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0fb3ec60000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>a5e64a8e0468725062aba365e67c84dd</update_guid>
+<update_guid_history>a5e64a8e0468725062aba365e67c84dd:1105292047,ade64a8ec86872504bf10d678fdf26b9:766212962</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_u_script_prefix</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_script_prefix" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Script Prefix&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_script_prefix&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:25:58&lt;/sys_created_on&gt;&lt;sys_id&gt;dbb506ca87687250316410a83cbb3590&lt;/sys_id&gt;&lt;sys_name&gt;Script Prefix&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_u_script_prefix&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:25:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1035137657</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>b958aa8e87ac7250316410a83cbb3568</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7c6940000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker.u_script_prefix</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8206cacaa0687250e2bd8642ebe34b26</update_guid>
+<update_guid_history>8206cacaa0687250e2bd8642ebe34b26:-1035137657</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1206caca87687250316410a83cbb3590</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>1206caca87687250316410a83cbb3590</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker.u_script_progress_tracker_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_script_progress_tracker">9606caca87687250316410a83cbb3589</sys_security_acl><sys_update_name>sys_security_acl_role_1206caca87687250316410a83cbb3590</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><sys_user_role display_value="u_script_progress_tracker_user" name="u_script_progress_tracker_user">02060aca87687250316410a83cbb3506</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1029542010</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>b958aa8e87ac7250316410a83cbb356b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cb3e0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker.u_script_progress_tracker_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9a06caca5c687250742e57bf106b2b94</update_guid>
+<update_guid_history>9a06caca5c687250742e57bf106b2b94:1029542010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_07b506ca87687250316410a83cbb357b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Script Progress Tracker</label><live_feed_enabled>false</live_feed_enabled><name>u_script_progress_tracker</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>07b506ca87687250316410a83cbb357b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Script Progress Tracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_07b506ca87687250316410a83cbb357b</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><update_access>false</update_access><user_role display_value="u_script_progress_tracker_user" name="u_script_progress_tracker_user">02060aca87687250316410a83cbb3506</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1078183444</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>bd58aa8e87ac7250316410a83cbb3567</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7d0020000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>aa060eca8f68725067e3f903e5bf9f03</update_guid>
+<update_guid_history>aa060eca8f68725067e3f903e5bf9f03:1078183444</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_5e06caca87687250316410a83cbb355e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_script_progress_tracker</description><local_or_existing>Existing</local_or_existing><name>u_script_progress_tracker</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>5e06caca87687250316410a83cbb355e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_5e06caca87687250316410a83cbb355e</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1390733973</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>bd58aa8e87ac7250316410a83cbb356a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7c9de0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9e06cacaf2687250583b1264df44a767</update_guid>
+<update_guid_history>9e06cacaf2687250583b1264df44a767:-1390733973</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_u_target_record_count</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_target_record_count" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Target Record Count&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_target_record_count&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:25:58&lt;/sys_created_on&gt;&lt;sys_id&gt;31c506ca87687250316410a83cbb35d0&lt;/sys_id&gt;&lt;sys_name&gt;Target Record Count&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_u_target_record_count&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:26:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-751514421</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>f158aa8e87ac7250316410a83cbb3569</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f85e7b0000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Target Record Count</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e326420e0e6872501f448f9c1cd27848</update_guid>
+<update_guid_history>e326420e0e6872501f448f9c1cd27848:-751514421,8a06caca9f68725096995bc363acf72b:-1948877275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5a06caca87687250316410a83cbb3575</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>5a06caca87687250316410a83cbb3575</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker.u_script_progress_tracker_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_script_progress_tracker">5e06caca87687250316410a83cbb355e</sys_security_acl><sys_update_name>sys_security_acl_role_5a06caca87687250316410a83cbb3575</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><sys_user_role display_value="u_script_progress_tracker_user" name="u_script_progress_tracker_user">02060aca87687250316410a83cbb3506</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1976283128</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>f158aa8e87ac7250316410a83cbb356c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7ca380000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker.u_script_progress_tracker_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9606cacaf76872504a3b0d96ccb7f47b</update_guid>
+<update_guid_history>9606cacaf76872504a3b0d96ccb7f47b:1976283128</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_script_progress_tracker_u_finished_record_count</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_finished_record_count" table="u_script_progress_tracker"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Finished Record Count&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_finished_record_count&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_script_progress_tracker&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:25:58&lt;/sys_created_on&gt;&lt;sys_id&gt;dcd506ca87687250316410a83cbb35d2&lt;/sys_id&gt;&lt;sys_name&gt;Finished Record Count&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_script_progress_tracker_u_finished_record_count&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:26:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_portal_display&gt;true&lt;/u_portal_display&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1974981553</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>f558aa8e87ac7250316410a83cbb3568</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f85d690000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Finished Record Count</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>eb26420ebf6872504a722a398b8e6835</update_guid>
+<update_guid_history>eb26420ebf6872504a722a398b8e6835:-1974981553,8e06caca72687250af4bd7254af78c30:456215529</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9e06caca87687250316410a83cbb3595</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_script_progress_tracker</description><local_or_existing>Existing</local_or_existing><name>u_script_progress_tracker</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:25:59</sys_created_on><sys_id>9e06caca87687250316410a83cbb3595</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_script_progress_tracker</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9e06caca87687250316410a83cbb3595</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:25:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>487088461</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>f558aa8e87ac7250316410a83cbb356b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cb820000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>u_script_progress_tracker</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5606cacafe687250e616e9bc2a6aea9b</update_guid>
+<update_guid_history>5606cacafe687250e616e9bc2a6aea9b:487088461</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_29168eca87687250316410a83cbb353a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.ScriptProgressTracker&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ScriptProgressTracker&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ScriptProgressTracker = Class.create();
+ScriptProgressTracker.prototype = {
+    initialize: function(prefix) {
+        this.prefix = prefix;
+        this.tracker = new GlideRecord('u_script_progress_tracker');
+        this.tracker.addQuery('u_script_prefix', prefix);
+        this.tracker.query();
+
+        if (!this.tracker.next()) {
+            this.tracker.initialize();
+            this.tracker.u_script_prefix = prefix;
+            this.tracker.u_status = 'running';
+            this.tracker.u_target_record_count = 0;
+            this.tracker.u_finished_record_count = 0;
+            this.tracker.u_started = new GlideDateTime();
+            this.tracker.insert();
+        }
+    },
+
+    start: function(total) {
+        this.tracker.u_target_record_count = total;
+        this.tracker.u_finished_record_count = 0;
+        this.tracker.u_status = 'running';
+        this.tracker.update();
+    },
+
+    step: function(stepCount) {
+        // default increment = 1
+        var step = stepCount || 1;
+        this.tracker.u_finished_record_count += step;
+        this.tracker.setWorkflow(false);
+        this.tracker.updateMultiple();
+    },
+
+    finish: function() {
+        this.tracker.u_status = 'done';
+        this.tracker.u_finished = new GlideDateTime();
+        this.tracker.update();
+    },
+
+    fail: function(msg) {
+        this.tracker.u_status = 'error';
+        this.tracker.u_notes = msg || 'Unknown error';
+        this.tracker.u_finished = new GlideDateTime();
+        this.tracker.update();
+    },
+
+    type: 'ScriptProgressTracker'
+};
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:28:15&lt;/sys_created_on&gt;&lt;sys_id&gt;29168eca87687250316410a83cbb353a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;ScriptProgressTracker&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_29168eca87687250316410a83cbb353a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:34:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;29168eca87687250316410a83cbb353a&lt;/id&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:28:15&lt;/sys_created_on&gt;&lt;sys_id&gt;2386c20e87687250316410a83cbb35b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:28:15&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-203533172</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>f958aa8e87ac7250316410a83cbb356a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0ffbd020000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table/>
+<target_name>ScriptProgressTracker</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>a908ca069ba87250961b0921e2241507</update_guid>
+<update_guid_history>a908ca069ba87250961b0921e2241507:-203533172,a386ca0ed9687250e5da9f24fbca35bd:-2108509740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_script_progress_tracker_u_started_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_started" label="Started" language="en" table="u_script_progress_tracker"><sys_documentation action="INSERT_OR_UPDATE"><element>u_started</element><help/><hint/><label>Started</label><language>en</language><name>u_script_progress_tracker</name><plural>Started</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>saif.bashitii</sys_created_by><sys_created_on>2025-10-14 04:26:00</sys_created_on><sys_id>6e06caca87687250316410a83cbb35ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Started</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_script_progress_tracker_u_started_en</sys_update_name><sys_updated_by>saif.bashitii</sys_updated_by><sys_updated_on>2025-10-14 04:26:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1353072394</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>fd58aa8e87ac7250316410a83cbb3569</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e0f7cf880000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table>u_script_progress_tracker</table>
+<target_name>Script Progress Tracker.Started</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6606caca92687250b5ab7e923a06b1fd</update_guid>
+<update_guid_history>6606caca92687250b5ab7e923a06b1fd:1353072394</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_9149028a87a87250316410a83cbb35bc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl/&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;ProgressTracker&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var gr = new GlideRecord('u_script_progress_tracker');
+    var prefix = request.queryParams.prefix || '';
+    if (!prefix) {
+        gr.query();
+
+        var all = [];
+        while (gr.next()) {
+            all.push({
+                sys_id: gr.getUniqueValue(),
+                u_script_prefix: gr.u_script_prefix.toString(),
+                u_target_record_count: gr.u_target_record_count.toString(),
+                u_finished_record_count: gr.u_finished_record_count.toString(),
+                u_status: gr.u_status.toString(),
+                u_started: gr.u_started.toString(),
+                u_finished: gr.u_finished.toString(),
+                sys_updated_on: gr.sys_updated_on.toString()
+            });
+        }
+
+        return { result: all };
+    }
+    gr.addQuery('u_script_prefix', prefix);
+    gr.orderByDesc('sys_updated_on');
+    gr.query();
+
+    if (gr.next()) {
+        return {
+            result: {
+                sys_id: gr.getUniqueValue(),
+                u_script_prefix: gr.u_script_prefix.toString(),
+                u_target_record_count: gr.u_target_record_count.toString(),
+                u_finished_record_count: gr.u_finished_record_count.toString(),
+                u_status: gr.u_status.toString(),
+                u_started: gr.u_started.toString(),
+                u_finished: gr.u_finished.toString(),
+                sys_updated_on: gr.sys_updated_on.toString()
+            }
+        };
+    } else {
+        return { result: {} };
+    }
+
+})(request, response);
+]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/nah/progresstracker/ProgressTracker&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/ProgressTracker&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:41:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9149028a87a87250316410a83cbb35bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;ProgressTracker&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_9149028a87a87250316410a83cbb35bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 05:59:39&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="ProgressTracker"&gt;a5398e4a87a87250316410a83cbb35b8&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;9149028a87a87250316410a83cbb35bc&lt;/id&gt;&lt;sys_created_by&gt;saif.bashitii&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-14 04:41:03&lt;/sys_created_on&gt;&lt;sys_id&gt;c379828a87a87250316410a83cbb355b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;saif.bashitii&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-14 04:41:03&lt;/sys_updated_on&gt;&lt;table&gt;sys_ws_operation&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1971417015</payload_hash>
+<remote_update_set display_value="Script Progress Tracker">3158aa8e87ac7250316410a83cbb3567</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>saif.bashitii</sys_created_by>
+<sys_created_on>2025-10-14 06:55:52</sys_created_on>
+<sys_id>fd58aa8e87ac7250316410a83cbb356c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199e14d8b330000001</sys_recorded_at>
+<sys_updated_by>saif.bashitii</sys_updated_by>
+<sys_updated_on>2025-10-14 06:55:52</sys_updated_on>
+<table/>
+<target_name>ProgressTracker</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>1e7b5e022d6c7250fb953bbc7cdd249b</update_guid>
+<update_guid_history>1e7b5e022d6c7250fb953bbc7cdd249b:1971417015,12fa12029a6c7250eba20762005454b1:884670059,ca771a46b72c7250fd87e6e6caa23161:-1280577717,9a075206ae2c7250a0947c7c240bebb4:-1978902291,0686dec27c2c72509afa2876190a77bb:-1445628448,d576d6c2752c72504d9de433567adeb2:-1892506050,04a19e8aa9e872506c8b26ad81e9511a:-1445628448,6d715e8a94e87250f988dbda12f1d041:1332450359,bc111a4a96e872506aba68131eec4f30:-16136567,9830dec65ae8725026d6b20a2b522e1a:-244470997,cf3f8e46cbe87250d8efcc51d95ec6a6:1117228167,3b0f0a4628e87250f875b31d5b0b16d5:-1356618003,7bfec6460ee872501875509a4495af48:-1488120391,64ecce4266e87250e29cb673eeaee035:-683716781,836c4a02b7e872505cf33640fce29ef1:1910992919,5a7b468e92a872507965a7eeeb7b1fd7:2140457385,78faca0e1ba87250e0e73407b67b0be4:1624656377,3589ca8a86a872509c56e70f87c019ae:852009403,8b79828ad1a87250fcdca52b04c77f60:-1377584898</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
