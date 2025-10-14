@@ -1,31 +1,31 @@
- ServiceNow Script Progress Tracker
+<img width="351" height="409" alt="image" src="https://github.com/user-attachments/assets/9350edcf-658e-4959-b7e1-1fb5e668287e" />
 
 
 
 
- 
- <img width="351" height="409" alt="image" src="https://github.com/user-attachments/assets/db1eb6db-ea24-4749-9355-d858e5b79b3b" />
+ServiceNow Script Progress Tracker
 
+NowTrack — a Chrome extension that hooks straight into your ServiceNow instance and shows live progress for any running background script.
+No more refreshing logs or scrolling through tables — just open the tracker, pick your script, and watch the bar move in real time ⚡
 
+🔍 Get Started
 
+Search & install: NowTrack Chrome Extension
 
-A Chrome extension(NowTrack) that connects directly to your ServiceNow instance and shows live progress for any running background script.
-No more refreshing logs or digging through tables — just open the tracker, select your script, and watch the progress bar fill up in real time 🚀
-
-* Search & Install NowTrack Chrome Extension
-  
 🧠 Features
 
-🟢 Real-time script progress (records processed / total)
-⚙️ Works automatically with any *.service-now.com instance
-🧩 Lightweight & setup-free — plug and play
-🎨 Clean dark UI with color-coded statuses (running / done / error)
+🟢 Real-time script progress — see records processed vs total
+
+⚙️ Works out of the box with any *.service-now.com instance
+
+🧩 Lightweight & setup-free — pure plug and play
+
+🎨 Dark, minimal UI with color-coded statuses (Running / Done / Error)
 
 🪄 How to Use
 
-1️⃣ Commit the update set included with the extension to your instance.
-2️⃣ In your server-side script, call the Script Include named ScriptProgressTracker and pass your script prefix — for example:
-"Incident Mass Update".
+1️⃣ Commit the provided update set to your instance.
+2️⃣ In your server-side script, call the Script Include ScriptProgressTracker and pass a custom prefix — for example: "Incident Mass Update"
 
 💻 Example Background Script
 (function() {
@@ -45,7 +45,6 @@ No more refreshing logs or digging through tables — just open the tracker, sel
             gr.update();
             processed++;
 
-            // Update every 50 records
             if (processed % 50 == 0) {
                 tracker.step(50);
             }
@@ -55,12 +54,11 @@ No more refreshing logs or digging through tables — just open the tracker, sel
         }
     }
 
-    // Final update for remaining records
     tracker.step(processed % 50);
     tracker.finish();
 })();
 
-💡 Tip
+💡 Pro Tip
 
-Keep the prefix unique per script to avoid mixing results in the tracker.
-Then just open your Chrome extension popup — and enjoy watching real-time updates
+Keep each script’s prefix unique to avoid overlap in the tracker.
+Then just pop open your Chrome extension — and enjoy real-time progress, the clean way. 🚀
