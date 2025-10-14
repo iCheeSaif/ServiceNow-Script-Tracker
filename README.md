@@ -1,6 +1,8 @@
-ServiceNow Script Progress Tracker
+ ServiceNow Script Progress Tracker
+ <img width="351" height="409" alt="image" src="https://github.com/user-attachments/assets/db1eb6db-ea24-4749-9355-d858e5b79b3b" />
 
-A sleek Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running background script.
+
+A Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running background script.
 No more refreshing logs or digging through tables — just open the tracker, select your script, and watch the progress bar fill up in real time 🚀
 
 🧠 Features
