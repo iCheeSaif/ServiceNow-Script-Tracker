@@ -1,11 +1,14 @@
 # ServiceNow-Script-Tracker
 This Chrome extension connects directly to your ServiceNow instance and shows live progress for any running script. No need to refresh logs or dig through tables — just open the tracker, select your script, and watch the bar fill up in real time
-<br>
+
+<br><br><br>
 <h1>How to use?</h1>
 1- Commit the related update set to your instance.
 2- at any server script, you need to call the script include named ScriptProgressTracker and pass your script prefix! for eample: Incident Mass Update
 
-Background Example : 
+<br>
+<br>
+Background Script Example : 
 <script>
   (function() {
     var prefix = 'incident Mass Update';
