@@ -9,9 +9,11 @@
 
 
 
-A Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running background script.
+A Chrome extension(NowTrack) that connects directly to your ServiceNow instance and shows live progress for any running background script.
 No more refreshing logs or digging through tables — just open the tracker, select your script, and watch the progress bar fill up in real time 🚀
 
+* Search & Install NowTrack Chrome Extension
+  
 🧠 Features
 
 🟢 Real-time script progress (records processed / total)
