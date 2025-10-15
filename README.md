@@ -30,8 +30,10 @@ Commit one update set to your instance — and you’re ready to go.
 2️⃣ In your background script, call the ScriptProgressTracker Script Include and pass a custom prefix.
 
 Example Script:
+
+
 <script>
-(function() {
+  (function() {
   var prefix = 'Incident Mass Update';
   var tracker = new ScriptProgressTracker(prefix);
 
@@ -60,7 +62,9 @@ Example Script:
   tracker.step(processed % 50);
   tracker.finish();
 })();
-   </script>
+
+</script>
+    
 
 
 
