@@ -1,8 +1,6 @@
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/3df30a66-964e-4303-b196-43325053715b" />
 
 <center>
-    NowTrack — ServiceNow Script Progress Tracker
-
 NowTrack — a Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running a server side script ⚡
 
 🔍 Get Started
