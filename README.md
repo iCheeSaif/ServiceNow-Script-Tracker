@@ -32,7 +32,12 @@ Commit one update set to your instance — and you’re ready to go.
 
 💡 Pro Tip: Use a unique prefix for each script to keep trackers separate. Then open your Chrome extension and watch your script’s progress update in real time. ⚙️✨
 
- 
+ <h3> Usage Exmaple Senario : Simple GlideRecord</h3>
+
+
+
+
+  <h3> Usage Exmaple Senario | Simple GlideRecord</h3>
 ```javascript
 (function() {
     var prefix = 'Incident Mass Update';
@@ -59,6 +64,68 @@ Commit one update set to your instance — and you’re ready to go.
     tracker.finish();
 })();
 
-    
+
+ <h3> Usage Exmaple Senario | Nested GlideRecord</h3>
  
+```javascript
+(function() {
+    var prefix = 'Incident SLA Mass Update';
+    var tracker = new ScriptProgressTracker(prefix);
+
+    var inc = new GlideRecord('incident');
+    inc.addActiveQuery();
+    inc.query();
+
+    var total = inc.getRowCount();
+    tracker.start(total);
+
+    var processed = 0;
+
+    while (inc.next()) {
+        try {
+            // deactivate incident
+            inc.active = false;
+            inc.work_notes = 'Auto-closed via mass update';
+            inc.update();
+
+            // now go get related SLAs
+            var sla = new GlideRecord('task_sla');
+            sla.addQuery('task', inc.sys_id);
+            sla.query();
+
+            while (sla.next()) {
+                // mark the SLA as complete if still running
+                if (sla.stage == 'In Progress') {
+                    sla.stage = 'Completed';
+                    sla.comments = 'Closed because parent incident is deactivated';
+                    sla.update();
+                }
+
+                // nested level: fetch SLA definition details
+                var def = new GlideRecord('contract_sla');
+                if (def.get(sla.sla)) {
+                    gs.info('Incident ' + inc.number + ' uses SLA: ' + def.name);
+                }
+            }
+
+            processed++;
+            if (processed % 50 == 0) {
+                tracker.step(50);
+            }
+
+        } catch (e) {
+            tracker.fail(e.message);
+            return;
+        }
+    }
+
+    tracker.step(processed % 50);
+    tracker.finish();
+})();
+
+
+
+
+
+
 
