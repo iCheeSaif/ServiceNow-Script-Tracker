@@ -27,7 +27,7 @@ Commit one update set to your instance — and you’re ready to go.
 🪄 How to Use
 
 1️⃣ Commit the provided update set to your instance.
-2️⃣ In your background script, call the ScriptProgressTracker Script Include and pass a custom prefix.
+2️⃣ In your server script(Business Rule,Background Script, Fixed Script, Any Server Side) , call the ScriptProgressTracker Script Include and pass a custom prefix.
 
 Example Script 
 
