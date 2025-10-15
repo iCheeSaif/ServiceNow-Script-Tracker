@@ -63,7 +63,7 @@ Example Script:
   tracker.finish();
 })();
 
-</script>
+ 
     
 
 
