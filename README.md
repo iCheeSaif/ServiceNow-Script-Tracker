@@ -31,3 +31,28 @@ Commit one update set to your instance — and you’re ready to go.
 2️⃣ In your server script(Business Rule,Background Script, Fixed Script, Any Server Side) , call the ScriptProgressTracker Script Include and pass a custom prefix.
 
 💡 Pro Tip: Use a unique prefix for each script to keep trackers separate. Then open your Chrome extension and watch your script’s progress update in real time. ⚙️✨
+
+(function() {
+    var prefix = 'Incident Mass Update';
+    var tracker = new ScriptProgressTracker(prefix);
+    var gr = new GlideRecord('incident');
+    gr.query();
+    var total = gr.getRowCount();
+    tracker.start(total);
+    var processed = 0;
+    while (gr.next()) {
+        try {
+            gr.active = false;
+            gr.update();
+            processed++;
+            if (processed % 50 == 0) {
+                tracker.step(50);
+            }
+        } catch (e) {
+            tracker.fail(e.message);
+            return;
+        }
+    }
+    tracker.step(processed % 50);
+    tracker.finish();
+})();
