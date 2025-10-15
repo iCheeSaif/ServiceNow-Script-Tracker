@@ -1,45 +1,42 @@
+# 🧭 NowTrack — ServiceNow Script Progress Tracker
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/787af5c1-7184-4eba-be98-b3ff2871e726" />
+Stop digging through logs or refreshing endlessly just to check your script’s status.  
+**NowTrack** is a Chrome extension that connects to your ServiceNow instance and shows live progress for any background script. ⚡  
 
+---
 
-NowTrack — ServiceNow Script Progress Tracker
+## 🔍 Get Started
 
-Stop digging through logs or refreshing endlessly just to check your script’s status. NowTrack is a Chrome extension that connects to your ServiceNow instance and shows live progress for any background script. ⚡
+1. Install **NowTrack** from the Chrome Web Store.  
+2. Commit **one update set** to your instance — and you’re ready to go.  
 
-🔍 Get Started
+---
 
-Install NowTrack from the Chrome Web Store.
+## 🧠 Key Features
 
-Commit one update set to your instance — and you’re ready to go.
+- 🟢 **Real-time tracking** — see processed vs total records instantly.  
+- ⚙️ **Works with any** `*.service-now.com` instance.  
+- ⚡ **Auto-refreshes** every 5 seconds — no need to reload.  
+- 🧩 **Lightweight & setup-free** — plug and play.  
+- 🎨 **Clean dark UI** with color-coded statuses *(Running / Done / Error)*.  
 
-🧠 Key Features
+---
 
-🟢 Real-time tracking — see processed vs total records instantly.
+## 🪄 How to Use
 
-⚙️ Works with any *.service-now.com instance.
+1️⃣ Commit the provided update set to your instance.  
+2️⃣ In your **server script** (Business Rule, Background Script, Fix Script, or any server-side code), call the `ScriptProgressTracker` Script Include and pass a custom prefix.  
 
-⚡ Auto-refreshes every 5 seconds — no need to reload.
+💡 **Pro Tip:** Use a unique prefix for each script to keep trackers separate.  
+Then open your Chrome extension and watch your script’s progress update in real-time. ⚙️✨  
 
-🧩 Lightweight and setup-free — plug and play.
+---
 
-🎨 Clean dark UI with color-coded statuses (Running / Done / Error).
+## 💻 Example Usage
 
-🪄 How to Use
-
-1️⃣ Commit the provided update set to your instance.
-
-2️⃣ In your server script(Business Rule,Background Script, Fixed Script, Any Server Side) , call the ScriptProgressTracker Script Include and pass a custom prefix.
-
-💡 Pro Tip: Use a unique prefix for each script to keep trackers separate. Then open your Chrome extension and watch your script’s progress update in real time. ⚙️✨
-
- <h3> Usage Exmaple Senario : Simple GlideRecord</h3>
-
-
-
-
-  <h3> Usage Exmaple Senario | Simple GlideRecord</h3>
 ```javascript
 (function() {
+    // 🔹 Example 1: Simple GlideRecord
     var prefix = 'Incident Mass Update';
     var tracker = new ScriptProgressTracker(prefix);
     var gr = new GlideRecord('incident');
@@ -52,9 +49,7 @@ Commit one update set to your instance — and you’re ready to go.
             gr.active = false;
             gr.update();
             processed++;
-            if (processed % 50 == 0) {
-                tracker.step(50);
-            }
+            if (processed % 50 == 0) tracker.step(50);
         } catch (e) {
             tracker.fail(e.message);
             return;
@@ -62,70 +57,52 @@ Commit one update set to your instance — and you’re ready to go.
     }
     tracker.step(processed % 50);
     tracker.finish();
-})();
 
 
- <h3> Usage Exmaple Senario | Nested GlideRecord</h3>
- 
-```javascript
-(function() {
-    var prefix = 'Incident SLA Mass Update';
-    var tracker = new ScriptProgressTracker(prefix);
+    // 🔹 Example 2: Nested GlideRecord
+    var prefix2 = 'Incident SLA Mass Update';
+    var tracker2 = new ScriptProgressTracker(prefix2);
 
     var inc = new GlideRecord('incident');
     inc.addActiveQuery();
     inc.query();
 
-    var total = inc.getRowCount();
-    tracker.start(total);
-
-    var processed = 0;
+    var total2 = inc.getRowCount();
+    tracker2.start(total2);
+    var processed2 = 0;
 
     while (inc.next()) {
         try {
-            // deactivate incident
             inc.active = false;
             inc.work_notes = 'Auto-closed via mass update';
             inc.update();
 
-            // now go get related SLAs
             var sla = new GlideRecord('task_sla');
             sla.addQuery('task', inc.sys_id);
             sla.query();
 
             while (sla.next()) {
-                // mark the SLA as complete if still running
                 if (sla.stage == 'In Progress') {
                     sla.stage = 'Completed';
                     sla.comments = 'Closed because parent incident is deactivated';
                     sla.update();
                 }
 
-                // nested level: fetch SLA definition details
                 var def = new GlideRecord('contract_sla');
                 if (def.get(sla.sla)) {
                     gs.info('Incident ' + inc.number + ' uses SLA: ' + def.name);
                 }
             }
 
-            processed++;
-            if (processed % 50 == 0) {
-                tracker.step(50);
-            }
+            processed2++;
+            if (processed2 % 50 == 0) tracker2.step(50);
 
         } catch (e) {
-            tracker.fail(e.message);
+            tracker2.fail(e.message);
             return;
         }
     }
 
-    tracker.step(processed % 50);
-    tracker.finish();
+    tracker2.step(processed2 % 50);
+    tracker2.finish();
 })();
-
-
-
-
-
-
-
