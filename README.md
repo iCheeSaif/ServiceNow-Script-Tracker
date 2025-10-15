@@ -1,4 +1,5 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/09d48d32-fdb3-4733-9144-6a85047f1365" />
+<img width="351" height="409" alt="image" src="https://github.com/user-attachments/assets/4bf18cae-12cf-4aad-be59-0c5843d0db83" />
+
 
 
 # 🧭 NowTrack — ServiceNow Script Progress Tracker
