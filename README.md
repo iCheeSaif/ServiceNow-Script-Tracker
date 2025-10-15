@@ -1,3 +1,6 @@
+![Uploading image.png…]()
+
+
 NowTrack — ServiceNow Script Progress Tracker
 
 Tired of refreshing logs or scrolling endlessly through tables just to see how your script is doing?
