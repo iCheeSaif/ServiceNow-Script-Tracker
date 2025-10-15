@@ -1,59 +1,65 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/3df30a66-964e-4303-b196-43325053715b" />
 
-<center>
-NowTrack — a Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running a server side script ⚡
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/787af5c1-7184-4eba-be98-b3ff2871e726" />
+
+
+NowTrack — ServiceNow Script Progress Tracker
+
+Stop digging through logs or refreshing endlessly just to check your script’s status. NowTrack is a Chrome extension that connects to your ServiceNow instance and shows live progress for any background script. ⚡
 
 🔍 Get Started
 
-Search & install: NowTrack Chrome Extension
-Commit one update set to your instance — and you’re good to go!
+Install NowTrack from the Chrome Web Store.
+
+Commit one update set to your instance — and you’re ready to go.
 
 🧠 Key Features
 
-🟢 Real-time progress tracking — see processed vs total records instantly
-⚙️ Works out of the box with any *.service-now.com instance
-⚡ Auto-refreshes every 5 seconds — no manual refresh needed
-🧩 Lightweight & setup-free — plug and play simplicity
-🎨 Dark, minimal UI with color-coded statuses (Running / Done / Error)
+🟢 Real-time tracking — see processed vs total records instantly.
+
+⚙️ Works with any *.service-now.com instance.
+
+⚡ Auto-refreshes every 5 seconds — no need to reload.
+
+🧩 Lightweight and setup-free — plug and play.
+
+🎨 Clean dark UI with color-coded statuses (Running / Done / Error).
 
 🪄 How to Use
 
-1️⃣ Commit the provided update set to your instance
-2️⃣ In your server-side script, call the ScriptProgressTracker Script Include and pass a custom prefix
+1️⃣ Commit the provided update set to your instance.
+2️⃣ In your background script, call the ScriptProgressTracker Script Include and pass a custom prefix.
 
-💻 Example Background Script
+Example Script:
+
 (function() {
-    var prefix = 'Incident Mass Update';
-    var tracker = new ScriptProgressTracker(prefix);
+  var prefix = 'Incident Mass Update';
+  var tracker = new ScriptProgressTracker(prefix);
 
-    var gr = new GlideRecord('incident');
-    gr.query();
-    var total = gr.getRowCount();
+  var gr = new GlideRecord('incident');
+  gr.query();
+  var total = gr.getRowCount();
 
-    tracker.start(total);
+  tracker.start(total);
 
-    var processed = 0;
-    while (gr.next()) {
-        try {
-            gr.active = false;
-            gr.update();
-            processed++;
+  var processed = 0;
+  while (gr.next()) {
+    try {
+      gr.active = false;
+      gr.update();
+      processed++;
 
-            if (processed % 50 == 0) {
-                tracker.step(50);
-            }
-        } catch (e) {
-            tracker.fail(e.message);
-            return;
-        }
+      if (processed % 50 == 0) {
+        tracker.step(50);
+      }
+    } catch (e) {
+      tracker.fail(e.message);
+      return;
     }
+  }
 
-    tracker.step(processed % 50);
-    tracker.finish();
+  tracker.step(processed % 50);
+  tracker.finish();
 })();
 
 
-💡 Pro Tip:
-Use a unique prefix for each script to avoid overlap in your tracker.
-Then open your Chrome extension — and watch your script progress update live in real time ⚙️✨
-</center>
+💡 Pro Tip: Use a unique prefix for each script to keep trackers separate. Then open your Chrome extension and watch your script’s progress update in real time. ⚙️✨
