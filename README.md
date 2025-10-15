@@ -31,6 +31,7 @@ Commit one update set to your instance — and you’re ready to go.
 2️⃣ In your server script(Business Rule,Background Script, Fixed Script, Any Server Side) , call the ScriptProgressTracker Script Include and pass a custom prefix.
 
 💡 Pro Tip: Use a unique prefix for each script to keep trackers separate. Then open your Chrome extension and watch your script’s progress update in real time. ⚙️✨
+
 <xmp>
 (function() {
     var prefix = 'Incident Mass Update';
@@ -56,4 +57,6 @@ Commit one update set to your instance — and you’re ready to go.
     tracker.step(processed % 50);
     tracker.finish();
 })();
+    
 </xmp>
+
