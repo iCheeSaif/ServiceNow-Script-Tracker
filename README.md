@@ -32,11 +32,10 @@ Then open your Chrome extension and watch your script’s progress update in rea
 
 ---
 
-## 💻 Example Usage
+## 💻 Example 1 — Simple GlideRecord
 
 ```javascript
 (function() {
-    // 🔹 Example 1: Simple GlideRecord
     var prefix = 'Incident Mass Update';
     var tracker = new ScriptProgressTracker(prefix);
     var gr = new GlideRecord('incident');
@@ -49,7 +48,9 @@ Then open your Chrome extension and watch your script’s progress update in rea
             gr.active = false;
             gr.update();
             processed++;
-            if (processed % 50 == 0) tracker.step(50);
+            if (processed % 50 == 0) {
+                tracker.step(50);
+            }
         } catch (e) {
             tracker.fail(e.message);
             return;
@@ -57,52 +58,8 @@ Then open your Chrome extension and watch your script’s progress update in rea
     }
     tracker.step(processed % 50);
     tracker.finish();
-
-
-    // 🔹 Example 2: Nested GlideRecord
-    var prefix2 = 'Incident SLA Mass Update';
-    var tracker2 = new ScriptProgressTracker(prefix2);
-
-    var inc = new GlideRecord('incident');
-    inc.addActiveQuery();
-    inc.query();
-
-    var total2 = inc.getRowCount();
-    tracker2.start(total2);
-    var processed2 = 0;
-
-    while (inc.next()) {
-        try {
-            inc.active = false;
-            inc.work_notes = 'Auto-closed via mass update';
-            inc.update();
-
-            var sla = new GlideRecord('task_sla');
-            sla.addQuery('task', inc.sys_id);
-            sla.query();
-
-            while (sla.next()) {
-                if (sla.stage == 'In Progress') {
-                    sla.stage = 'Completed';
-                    sla.comments = 'Closed because parent incident is deactivated';
-                    sla.update();
-                }
-
-                var def = new GlideRecord('contract_sla');
-                if (def.get(sla.sla)) {
-                    gs.info('Incident ' + inc.number + ' uses SLA: ' + def.name);
-                }
-            }
-
-            processed2++;
-            if (processed2 % 50 == 0) tracker2.step(50);
-
-        } catch (e) {
-            tracker2.fail(e.message);
-            return;
-        }
-    }
-
-    tracker2.step(processed2 % 50);
-    tracker2.finish();
 })();
+
+
+## 💻 Example 1 — Simple GlideRecord
+
