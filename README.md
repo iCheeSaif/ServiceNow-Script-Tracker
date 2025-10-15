@@ -32,7 +32,8 @@ Commit one update set to your instance — and you’re ready to go.
 
 💡 Pro Tip: Use a unique prefix for each script to keep trackers separate. Then open your Chrome extension and watch your script’s progress update in real time. ⚙️✨
 
-<xmp>
+ 
+```javascript
 (function() {
     var prefix = 'Incident Mass Update';
     var tracker = new ScriptProgressTracker(prefix);
@@ -57,6 +58,7 @@ Commit one update set to your instance — and you’re ready to go.
     tracker.step(processed % 50);
     tracker.finish();
 })();
+
     
-</xmp>
+ 
 
