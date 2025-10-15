@@ -3,8 +3,7 @@
 <center>
     NowTrack — ServiceNow Script Progress Tracker
 
-Tired of refreshing logs or scrolling endlessly through tables just to see how your script is doing?
-Meet NowTrack — a Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running background script ⚡
+NowTrack — a Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running a server side script ⚡
 
 🔍 Get Started
 
