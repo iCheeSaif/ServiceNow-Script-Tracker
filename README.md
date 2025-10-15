@@ -31,8 +31,6 @@ Commit one update set to your instance — and you’re ready to go.
 
 Example Script:
 
-
-<script>
   (function() {
   var prefix = 'Incident Mass Update';
   var tracker = new ScriptProgressTracker(prefix);
