@@ -121,8 +121,6 @@ Then open your Chrome extension and watch your script’s progress update in rea
     tracker.finish();
 })();
 
-
-
  
  
 
