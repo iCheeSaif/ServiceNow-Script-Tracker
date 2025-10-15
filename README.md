@@ -1,31 +1,25 @@
-<img width="351" height="409" alt="image" src="https://github.com/user-attachments/assets/9350edcf-658e-4959-b7e1-1fb5e668287e" />
+NowTrack — ServiceNow Script Progress Tracker
 
-
-
-
-ServiceNow Script Progress Tracker
-
-NowTrack — a Chrome extension that hooks straight into your ServiceNow instance and shows live progress for any running background script.
-No more refreshing logs or scrolling through tables — just open the tracker, pick your script, and watch the bar move in real time ⚡
+Tired of refreshing logs or scrolling endlessly through tables just to see how your script is doing?
+Meet NowTrack — a Chrome extension that connects directly to your ServiceNow instance and shows live progress for any running background script ⚡
 
 🔍 Get Started
 
 Search & install: NowTrack Chrome Extension
+Commit one update set to your instance — and you’re good to go!
 
-🧠 Features
+🧠 Key Features
 
-🟢 Real-time script progress — see records processed vs total
-
+🟢 Real-time progress tracking — see processed vs total records instantly
 ⚙️ Works out of the box with any *.service-now.com instance
-
-🧩 Lightweight & setup-free — pure plug and play
-
+⚡ Auto-refreshes every 5 seconds — no manual refresh needed
+🧩 Lightweight & setup-free — plug and play simplicity
 🎨 Dark, minimal UI with color-coded statuses (Running / Done / Error)
 
 🪄 How to Use
 
-1️⃣ Commit the provided update set to your instance.
-2️⃣ In your server-side script, call the Script Include ScriptProgressTracker and pass a custom prefix — for example: "Incident Mass Update"
+1️⃣ Commit the provided update set to your instance
+2️⃣ In your server-side script, call the ScriptProgressTracker Script Include and pass a custom prefix
 
 💻 Example Background Script
 (function() {
@@ -58,7 +52,7 @@ Search & install: NowTrack Chrome Extension
     tracker.finish();
 })();
 
-💡 Pro Tip
 
-Keep each script’s prefix unique to avoid overlap in the tracker.
-Then just pop open your Chrome extension — and enjoy real-time progress, the clean way. 🚀
+💡 Pro Tip:
+Use a unique prefix for each script to avoid overlap in your tracker.
+Then open your Chrome extension — and watch your script progress update live in real time ⚙️✨
