@@ -31,8 +31,8 @@ Stop digging through logs or refreshing endlessly just to check your script’s 
 Then open your Chrome extension and watch your script’s progress update in real-time. ⚙️✨  
 
 ---
+<h3>## 💻 Example 1 — Simple GlideRecord</h3>
 
-## 💻 Example 1 — Simple GlideRecord
 
 ```javascript
 (function() {
@@ -60,6 +60,8 @@ Then open your Chrome extension and watch your script’s progress update in rea
     tracker.finish();
 })();
 
+ 
+ 
 
-## 💻 Example 1 — Simple GlideRecord
 
+ 
