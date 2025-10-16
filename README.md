@@ -16,7 +16,7 @@ Stop digging through logs or refreshing endlessly just to check your script’s 
 
 ## 🔍 Get Started
 
-1. Install **NowTrack** from the Chrome Web Store.  
+1. Install **NowTrack** from the Chrome Web Store.  [Chrome Web Store](https://chromewebstore.google.com/detail/nowtrack/dchidinnpomhepkapkiipighfdpkdjff).
 2. Commit **one update set** to your instance — and you’re ready to go.  
 
 ---
